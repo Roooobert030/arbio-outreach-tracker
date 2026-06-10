@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-06-10 15:06",
+  "last_updated": "2026-06-10 15:53",
   "total_sent": 219,
   "stats": {
     "replied_positive": 4,
     "rejected": 4,
     "postponed": 1,
     "ghosted": 210,
-    "with_email": 90,
-    "with_website": 191
+    "with_email": 89,
+    "with_website": 193
   },
   "contacts": [
     {
@@ -695,8 +695,8 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "https://desktop.github.com/download/",
-      "website_confidence": "medium",
+      "website": "",
+      "website_confidence": "none",
       "emails": [],
       "phones": [],
       "response_snippet": "",
@@ -733,16 +733,18 @@
       "platform": "instagram",
       "outreach_date": "2026-05-20",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
-      "emails": [],
+      "website": "https://www.mein-bauernhof.de/verkaufstelle/ferienbauernhof-kilger-853169/",
+      "website_confidence": "high",
+      "emails": [
+        "info@ferienbauernhof-kilger.de"
+      ],
       "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "feriendorf_felsenhof",
@@ -819,22 +821,16 @@
       "platform": "instagram",
       "outreach_date": "2026-05-25",
       "status": "ghosted",
-      "website": "https://www.harz-travel.de/ferienhaus/friedrichsbrunn/1023209/ferienhaus-harzglueck.php",
-      "website_confidence": "medium",
-      "emails": [
-        "info@harz-travel.de",
-        "info@travanto.de"
-      ],
-      "phones": [
-        "040 38 01 78",
-        "05.05.2025"
-      ],
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_small_single_property",
-      "has_contact_data": true
+      "has_contact_data": false
     },
     {
       "handle": "ferienhaus.herrenwies",
@@ -953,8 +949,8 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
+      "website": "https://ferienhaus-seepark-75.de/Impressum/",
+      "website_confidence": "high",
       "emails": [],
       "phones": [],
       "response_snippet": "",
@@ -1265,26 +1261,6 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "https://www.harz-travel.de/ferienwohnungen-ferienhaeuser-St-Andreasberg/?page=10",
-      "website_confidence": "high",
-      "emails": [
-        "info@harz-travel.de"
-      ],
-      "phones": [
-        "040 38 01 78"
-      ],
-      "response_snippet": "",
-      "response_date": "",
-      "note": "",
-      "persona": "team.arbio",
-      "icp_segment": "ICP3_self_managing",
-      "has_contact_data": true
-    },
-    {
-      "handle": "ferienwohnung_uckermark",
-      "platform": "instagram",
-      "outreach_date": "2026-06-10",
-      "status": "ghosted",
       "website": "",
       "website_confidence": "none",
       "emails": [],
@@ -1293,8 +1269,26 @@
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
-      "icp_segment": "",
+      "icp_segment": "ICP3_self_managing",
       "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnung_uckermark",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "https://www.luisenau.de/ferienwohnung-uckermark-am-see/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "039881"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": true
     },
     {
       "handle": "ferienwohnungen.perfeldhof",
@@ -1537,8 +1531,8 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
+      "website": "https://humann.com/",
+      "website_confidence": "medium",
       "emails": [],
       "phones": [],
       "response_snippet": "",
@@ -1546,7 +1540,7 @@
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "fewo_garten_oase_berlin",
@@ -1662,16 +1656,20 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
-      "emails": [],
-      "phones": [],
+      "website": "https://www.harztastisch.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "harztastisch@gmail.com"
+      ],
+      "phones": [
+        "+4916096252014"
+      ],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "fewooge",
@@ -1880,16 +1878,20 @@
       "platform": "instagram",
       "outreach_date": "2026-06-09",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
+      "website": "https://www.grubdanielhof.de/impressum/",
+      "website_confidence": "high",
       "emails": [],
-      "phones": [],
+      "phones": [
+        "07645 1722",
+        "0049 176 2332 1235",
+        "0049 7645 1722"
+      ],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "gut.oehe",
@@ -2129,16 +2131,21 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
-      "emails": [],
-      "phones": [],
+      "website": "https://hoechi.be/ferien/ferienwohnung-gross/",
+      "website_confidence": "high",
+      "emails": [
+        "hoechi@bluewin.ch"
+      ],
+      "phones": [
+        "+41 79 440 55 90",
+        "+41 79 600 99 11"
+      ],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "hoepershof_sylt",
@@ -2574,21 +2581,16 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "https://www.travanto.de/ferienwohnungen/koserow/1048591/meeresquartier-haus-usedom-appartement-meeresoase.php",
-      "website_confidence": "high",
-      "emails": [
-        "info@travanto.de"
-      ],
-      "phones": [
-        "04.09.2025",
-        "04.07.2025"
-      ],
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP2_professional",
-      "has_contact_data": true
+      "has_contact_data": false
     },
     {
       "handle": "meerzeitfuerferien",
@@ -2627,22 +2629,16 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "https://www.kleinanzeigen.de/s-anzeige/melou-ferienwohnung-harzruhe-wellness-sauna-pool-2-personen/3204444223-275-2802",
-      "website_confidence": "high",
-      "emails": [
-        "behoerdenanfragen@kleinanzeigen.de",
-        "impressum@kleinanzeigen.de"
-      ],
-      "phones": [
-        "+49 30 13881317",
-        "03.03.2026"
-      ],
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": true
+      "has_contact_data": false
     },
     {
       "handle": "moehrenblick.62",
@@ -2730,16 +2726,22 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
-      "emails": [],
-      "phones": [],
+      "website": "https://www.naturresort.net/impressum",
+      "website_confidence": "medium",
+      "emails": [
+        "info@naturresort.net"
+      ],
+      "phones": [
+        "+49 9682 737",
+        "09682 737",
+        "09682 9152787"
+      ],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP2_professional",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "new_haus",
@@ -3000,16 +3002,18 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
-      "emails": [],
+      "website": "https://www.rauszeit-spo.de/author/rauszeitspo/",
+      "website_confidence": "high",
+      "emails": [
+        "info@rauszeit-spo.de"
+      ],
       "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "reetdorfgeltingerbirk",
@@ -3105,8 +3109,8 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "https://chatgpt.com/",
-      "website_confidence": "medium",
+      "website": "",
+      "website_confidence": "none",
       "emails": [],
       "phones": [],
       "response_snippet": "",
@@ -3309,8 +3313,8 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
+      "website": "https://www.fewo24.de/",
+      "website_confidence": "high",
       "emails": [],
       "phones": [],
       "response_snippet": "",
@@ -3598,20 +3602,16 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "replied_positive",
-      "website": "https://www.harz-travel.de/",
-      "website_confidence": "high",
-      "emails": [
-        "info@harz-travel.de"
-      ],
-      "phones": [
-        "040 38 01 78"
-      ],
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
       "response_snippet": "Hallo, danke für deine Kontaktaufnahme...",
       "response_date": "2026-05-21T10:58",
       "note": "Antwort innerhalb von 2 Minuten nach DM #47. Tilo Breuer, Auszeit im Harz HIGH VALUE Lead. Volle Nachricht noch nicht gelesen.",
       "persona": "team.arbio",
       "icp_segment": "ICP1_hands_off",
-      "has_contact_data": true
+      "has_contact_data": false
     },
     {
       "handle": "urlaub_mitherzimharz",
@@ -3637,18 +3637,16 @@
       "platform": "instagram",
       "outreach_date": "2026-06-01",
       "status": "ghosted",
-      "website": "https://www.sylt-travel.de/",
-      "website_confidence": "high",
-      "emails": [
-        "info@travanto.de"
-      ],
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
       "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP3_self_managing",
-      "has_contact_data": true
+      "has_contact_data": false
     },
     {
       "handle": "urlaubanderostsee",
@@ -3823,20 +3821,16 @@
       "platform": "instagram",
       "outreach_date": "2026-05-21",
       "status": "ghosted",
-      "website": "https://github.com/features/copilot",
-      "website_confidence": "medium",
-      "emails": [
-        "copilot-safety@github.com.Das"
-      ],
-      "phones": [
-        "02/2024"
-      ],
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "ICP2_professional",
-      "has_contact_data": true
+      "has_contact_data": false
     },
     {
       "handle": "wenning.35",
@@ -3877,16 +3871,20 @@
       "platform": "instagram",
       "outreach_date": "2026-06-09",
       "status": "ghosted",
-      "website": "",
-      "website_confidence": "none",
-      "emails": [],
-      "phones": [],
+      "website": "https://www.zugastinhalle.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@zugastinhalle.de"
+      ],
+      "phones": [
+        "+49 170 2331988"
+      ],
       "response_snippet": "",
       "response_date": "",
       "note": "",
       "persona": "team.arbio",
       "icp_segment": "",
-      "has_contact_data": false
+      "has_contact_data": true
     },
     {
       "handle": "zumbuntenbeet",
