@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arbio Outreach Tracker</title>
+<style>
+  :root {
+    --bg: #0f0f13;
+    --card: #1a1a22;
+    --border: #2e2e3e;
+    --text: #e8e8f0;
+    --muted: #8888aa;
+    --accent: #7c6af7;
+    --green: #22c55e;
+    --red: #ef4444;
+    --yellow: #f59e0b;
+    --blue: #3b82f6;
+    --purple: #a855f7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; }
+
+  header { padding: 24px 32px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 16px; }
+  header h1 { font-size: 20px; font-weight: 700; }
+  header .updated { color: var(--muted); font-size: 12px; margin-left: auto; }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; padding: 24px 32px; border-bottom: 1px solid var(--border); }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .stat .num { font-size: 28px; font-weight: 700; line-height: 1; }
+  .stat .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 6px; }
+  .stat.green .num { color: var(--green); }
+  .stat.red .num { color: var(--red); }
+  .stat.yellow .num { color: var(--yellow); }
+  .stat.muted .num { color: var(--muted); }
+  .stat.blue .num { color: var(--blue); }
+  .stat.purple .num { color: var(--purple); }
+
+  .controls { padding: 16px 32px; display: flex; gap: 10px; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  .controls input { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 8px 14px; border-radius: 8px; font-size: 13px; width: 240px; outline: none; }
+  .controls input:focus { border-color: var(--accent); }
+  .filter-btn { background: var(--card); border: 1px solid var(--border); color: var(--muted); padding: 8px 14px; border-radius: 8px; cursor: pointer; font-size: 13px; transition: all 0.15s; }
+  .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+  .filter-btn.active { border-color: var(--accent); color: var(--text); background: #7c6af720; }
+  .count-badge { background: #ffffff18; color: var(--muted); border-radius: 99px; padding: 1px 7px; font-size: 11px; margin-left: 4px; }
+
+  .table-wrap { padding: 0 32px 32px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  thead th { text-align: left; padding: 10px 12px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap; }
+  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
+  tbody tr:hover { background: var(--card); }
+  tbody td { padding: 11px 12px; vertical-align: top; }
+  .handle { font-weight: 600; color: var(--text); text-decoration: none; }
+  .handle:hover { color: var(--accent); }
+
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 99px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .badge.replied_positive { background: #22c55e20; color: var(--green); border: 1px solid #22c55e40; }
+  .badge.rejected        { background: #ef444420; color: var(--red);   border: 1px solid #ef444440; }
+  .badge.postponed       { background: #f59e0b20; color: var(--yellow);border: 1px solid #f59e0b40; }
+  .badge.ghosted         { background: #8888aa18; color: var(--muted); border: 1px solid #8888aa30; }
+  .badge.replied         { background: #3b82f620; color: var(--blue);  border: 1px solid #3b82f640; }
+
+  .email-link { color: var(--accent); text-decoration: none; font-size: 13px; }
+  .email-link:hover { text-decoration: underline; }
+  .phone { color: var(--text); font-size: 13px; }
+  .website-link { color: var(--blue); text-decoration: none; font-size: 12px; max-width: 180px; display: inline-block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: middle; }
+  .website-link:hover { text-decoration: underline; }
+  .confidence { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+  .conf-high   { background: var(--green); }
+  .conf-medium { background: var(--yellow); }
+  .conf-none   { background: var(--muted); }
+
+  .note-cell { color: var(--muted); font-size: 12px; max-width: 220px; line-height: 1.5; }
+  .date-cell { color: var(--muted); font-size: 12px; white-space: nowrap; }
+  .no-data { color: #444; font-size: 12px; }
+
+  #empty-msg { text-align: center; padding: 48px; color: var(--muted); display: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Arbio Outreach Tracker</h1>
+  </div>
+  <div class="updated" id="last-updated"></div>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Handle, Email, Website suchen...">
+  <button class="filter-btn active" data-status="all">Alle <span class="count-badge" id="cnt-all">0</span></button>
+  <button class="filter-btn" data-status="replied_positive">Geantwortet <span class="count-badge" id="cnt-replied_positive">0</span></button>
+  <button class="filter-btn" data-status="postponed">Verschoben <span class="count-badge" id="cnt-postponed">0</span></button>
+  <button class="filter-btn" data-status="rejected">Abgelehnt <span class="count-badge" id="cnt-rejected">0</span></button>
+  <button class="filter-btn" data-status="ghosted">Kein Reply <span class="count-badge" id="cnt-ghosted">0</span></button>
+  <button class="filter-btn" data-status="has_email">Nur mit Email <span class="count-badge" id="cnt-has_email">0</span></button>
+</div>
+
+<div class="table-wrap">
+  <table id="main-table">
+    <thead>
+      <tr>
+        <th>Handle</th>
+        <th>Status</th>
+        <th>Website</th>
+        <th>Email</th>
+        <th>Telefon</th>
+        <th>Kontaktiert</th>
+        <th>Notiz</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div id="empty-msg">Keine Ergebnisse gefunden.</div>
+</div>
+
+<script>
+let allContacts = [];
+let activeFilter = 'all';
+let searchTerm = '';
+
+const STATUS_LABELS = {
+  replied_positive: 'Geantwortet',
+  rejected: 'Abgelehnt',
+  postponed: 'Verschoben',
+  ghosted: 'Kein Reply',
+  replied: 'Geantwortet',
+};
+
+function renderStats(data) {
+  const s = data.stats;
+  const el = document.getElementById('stats');
+  el.innerHTML = [
+    { cls: 'blue',   num: data.total_sent,          label: 'Total angeschrieben' },
+    { cls: 'green',  num: s.replied_positive,        label: 'Positiv geantwortet' },
+    { cls: 'yellow', num: s.postponed,               label: 'Verschoben' },
+    { cls: 'red',    num: s.rejected,                label: 'Abgelehnt' },
+    { cls: 'muted',  num: s.ghosted,                 label: 'Kein Reply' },
+    { cls: 'purple', num: s.with_email,              label: 'Mit Email' },
+    { cls: 'blue',   num: s.with_website,            label: 'Mit Website' },
+  ].map(s => `
+    <div class="stat ${s.cls}">
+      <div class="num">${s.num}</div>
+      <div class="label">${s.label}</div>
+    </div>
+  `).join('');
+  document.getElementById('last-updated').textContent = 'Aktualisiert: ' + data.last_updated;
+}
+
+function updateCounts(contacts) {
+  const counts = { all: contacts.length, replied_positive:0, rejected:0, postponed:0, ghosted:0, has_email:0, replied:0 };
+  contacts.forEach(c => {
+    counts[c.status] = (counts[c.status] || 0) + 1;
+    if (c.emails && c.emails.length > 0) counts.has_email++;
+  });
+  Object.entries(counts).forEach(([k, v]) => {
+    const el = document.getElementById('cnt-' + k);
+    if (el) el.textContent = v;
+  });
+}
+
+function escHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderTable(contacts) {
+  const tbody = document.getElementById('tbody');
+  const empty = document.getElementById('empty-msg');
+  if (contacts.length === 0) {
+    tbody.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  tbody.innerHTML = contacts.map(c => {
+    const emails = (c.emails || []).map(e =>
+      `<a class="email-link" href="mailto:${escHtml(e)}">${escHtml(e)}</a>`
+    ).join('<br>') || '<span class="no-data">—</span>';
+
+    const phones = (c.phones || []).map(p =>
+      `<span class="phone">${escHtml(p)}</span>`
+    ).join('<br>') || '<span class="no-data">—</span>';
+
+    const websiteHtml = c.website
+      ? `<span class="confidence conf-${escHtml(c.website_confidence||'none')}"></span><a class="website-link" href="${escHtml(c.website)}" target="_blank" title="${escHtml(c.website)}">${escHtml(c.website.replace(/^https?:\/\/(www\.)?/,''))}</a>`
+      : '<span class="no-data">—</span>';
+
+    const statusBadge = `<span class="badge ${escHtml(c.status)}">${STATUS_LABELS[c.status] || c.status}</span>`;
+
+    const noteHtml = c.response_snippet
+      ? `<div class="note-cell">"${escHtml(c.response_snippet.slice(0,100))}${c.response_snippet.length > 100 ? '…' : ''}"</div>`
+      : (c.note ? `<div class="note-cell">${escHtml(c.note.slice(0,100))}</div>` : '<span class="no-data">—</span>');
+
+    const igUrl = `https://instagram.com/${c.handle}`;
+    const dateHtml = c.outreach_date ? `<div class="date-cell">${escHtml(c.outreach_date)}</div>` : '';
+    const respDateHtml = c.response_date ? `<div class="date-cell" style="color:#666">Reply: ${escHtml(c.response_date.slice(0,10))}</div>` : '';
+
+    return `<tr data-status="${c.status}" data-has-email="${c.emails && c.emails.length > 0}">
+      <td><a class="handle" href="${igUrl}" target="_blank">@${escHtml(c.handle)}</a></td>
+      <td>${statusBadge}</td>
+      <td>${websiteHtml}</td>
+      <td>${emails}</td>
+      <td>${phones}</td>
+      <td>${dateHtml}${respDateHtml}</td>
+      <td>${noteHtml}</td>
+    </tr>`;
+  }).join('');
+}
+
+function filterContacts() {
+  let filtered = allContacts;
+  if (activeFilter === 'has_email') {
+    filtered = filtered.filter(c => c.emails && c.emails.length > 0);
+  } else if (activeFilter !== 'all') {
+    filtered = filtered.filter(c => c.status === activeFilter);
+  }
+  if (searchTerm) {
+    const q = searchTerm.toLowerCase();
+    filtered = filtered.filter(c =>
+      c.handle.toLowerCase().includes(q) ||
+      (c.website || '').toLowerCase().includes(q) ||
+      (c.emails || []).join(' ').toLowerCase().includes(q) ||
+      (c.phones || []).join(' ').toLowerCase().includes(q) ||
+      (c.note || '').toLowerCase().includes(q)
+    );
+  }
+  renderTable(filtered);
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.status;
+    filterContacts();
+  });
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value.trim();
+  filterContacts();
+});
+
+fetch('data/contacts.json')
+  .then(r => r.json())
+  .then(data => {
+    allContacts = data.contacts;
+    renderStats(data);
+    updateCounts(allContacts);
+    renderTable(allContacts);
+  })
+  .catch(err => {
+    document.getElementById('tbody').innerHTML =
+      `<tr><td colspan="7" style="text-align:center;padding:48px;color:#ef4444">Fehler beim Laden: ${err.message}</td></tr>`;
+  });
+</script>
+</body>
+</html>

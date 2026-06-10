@@ -1,0 +1,35 @@
+name: Daily Outreach Data Update
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # täglich 07:00 UTC (09:00 MEZ)
+  workflow_dispatch:        # auch manuell auslösbar
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml duckduckgo_search openpyxl
+
+      - name: Update data (merge only, no new scraping in CI)
+        run: python3 scripts/build_data_ci.py
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name  "arbio-bot"
+          git config user.email "growth@arbio.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: update outreach data $(date -u '+%Y-%m-%d')"
+          git push

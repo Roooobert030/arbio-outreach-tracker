@@ -1,0 +1,3929 @@
+{
+  "last_updated": "2026-06-10 15:06",
+  "total_sent": 219,
+  "stats": {
+    "replied_positive": 4,
+    "rejected": 4,
+    "postponed": 1,
+    "ghosted": 210,
+    "with_email": 90,
+    "with_website": 191
+  },
+  "contacts": [
+    {
+      "handle": "_homefy_",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "_wassererlehen_",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "_wohlfuehlferien_",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://translate.google.de/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "allgaeuurlaub",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "altestrandvogteikampen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.zhihu.com/question/1984788546771517931",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "alteszollhaus_neukirchen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://zollhaus-neukirchen.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@zollhaus-neukirchen.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "altstadthaus_burkheim",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.hometogo.at/burkheim/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ansbachs.city.apartment",
+      "platform": "instagram",
+      "outreach_date": "2026-06-09",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "antoncillilodges",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://anton-cilli.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@anton-cilli.de"
+      ],
+      "phones": [
+        "+49 8326 366 048"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "lodge_premium_allgaeu",
+      "has_contact_data": true
+    },
+    {
+      "handle": "appartements.strolz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.strolz.tirol/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@strolz.tirol"
+      ],
+      "phones": [
+        "+43 660 5673000"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "aufm_hof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.aufm-hof.de/anfrage-kontakt/",
+      "website_confidence": "high",
+      "emails": [
+        "info@aufm-hof.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "auszeit_ferienwohnung",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://auszeit-hatten.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@auszeit-hatten.de"
+      ],
+      "phones": [
+        "04481 2039897",
+        "04481/2039897"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "beim_dorfbach",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://maps.google.fr/mapfiles/home3.html",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "bioferienhaus_westerwald",
+      "platform": "instagram",
+      "outreach_date": "2026-05-23",
+      "status": "ghosted",
+      "website": "https://westerwald-ferienhaus.eu/impressum/",
+      "website_confidence": "high",
+      "emails": [
+        "thoson@t-online.de",
+        "info@garten-architektur.de"
+      ],
+      "phones": [
+        "02689-1239",
+        "02689 971174"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "bolstein_apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.beach-apartments-hhf.de/",
+      "website_confidence": "high",
+      "emails": [
+        "heiligenhafen@beachmotels.de"
+      ],
+      "phones": [
+        "03.07.2025",
+        "04.07.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "bon_apart_zillertal",
+      "platform": "instagram",
+      "outreach_date": "2026-05-28",
+      "status": "ghosted",
+      "website": "https://www.bon.texas.gov/",
+      "website_confidence": "medium",
+      "emails": [
+        "complaints@bon.texas.gov",
+        "webmaster@bon.texas.gov",
+        "aprn@bon.texas.gov"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "@team.arbio",
+      "icp_segment": "ferienwohnung_tirol",
+      "has_contact_data": true
+    },
+    {
+      "handle": "bootshaus_putbus",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.office.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "03442.418",
+        "000000000000"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "briseusedom_ferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-06-09",
+      "status": "ghosted",
+      "website": "https://host.io/brise-usedom.de",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "buerpartment",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.buerpartment.de/de/aboutus",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "STR_operator_multi_unit",
+      "has_contact_data": false
+    },
+    {
+      "handle": "charlottenhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://charlottenhof.jimdofree.com/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "01726967400",
+        "01723824706"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "chiemseebarrierefrei.de",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.chiemsee-gast.de/unterkuenfte/detail/2691",
+      "website_confidence": "medium",
+      "emails": [
+        "info@simonmedia.de"
+      ],
+      "phones": [
+        "0176-613 290 66"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "chiemseehof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.chiemsee-alpenland.de/chiemsee/ukv/house/Prien-am-Chiemsee-Ferienwohnung-Chiemseehof-DEU00000061273402320",
+      "website_confidence": "high",
+      "emails": [
+        "info@chiemsee-alpenland.de",
+        "info@chiemsee-alpenland.de.Wir"
+      ],
+      "phones": [
+        "09.08.2024",
+        "08.10.2024"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "deichhofnordsee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.iitk.ac.in/esc101/05Aug/tutorial/essential/threads/timer.html",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "dein_eifelhaus",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "domiziller",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://domiziller.de/impressum/",
+      "website_confidence": "high",
+      "emails": [
+        "info@domiziller.de"
+      ],
+      "phones": [
+        "015256945302"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "dreweshof_ferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://linktr.ee/DrewesHof_Ferienwohnungen",
+      "website_confidence": "high",
+      "emails": [
+        "drewes.hof@t-online.de"
+      ],
+      "phones": [
+        "05191-3838",
+        "05191-976293"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3",
+      "has_contact_data": true
+    },
+    {
+      "handle": "eifeel_living",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://esp-living.vacation-bookings.com",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "eifel.stays",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://linktr.ee/eifel.stays",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "eifelnatureretreats",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://traudioberstdorf.org/instagram/",
+      "website_confidence": "medium",
+      "emails": [
+        "fewo.taudi@mnet-mail.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "erlebnishof_eble",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://bauernhofurlaub.info/ferien-bauernhof/erlebnishof-eble",
+      "website_confidence": "high",
+      "emails": [
+        "fragen@bauernhofurlaub.info"
+      ],
+      "phones": [
+        "+43 677 64 777 739",
+        "+49 1512 3564564"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "erz_apartment_jahnsdorf",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.beach-apartments-hhf.de/heiligenhafen-ferienwohnung-am-strand",
+      "website_confidence": "high",
+      "emails": [
+        "heiligenhafen@beachmotels.de"
+      ],
+      "phones": [
+        "04.07.2026",
+        "09.07.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "erzfewolehmann",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.rhs.org.uk/herbs/growing",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "038262"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "erzgebirgesuiten",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://erzgebirge-suiten.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "buchung@fewoexperte.de"
+      ],
+      "phones": [
+        "04.03.2022",
+        "+49 30 439 710 11"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "esterer_hof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.estererhof.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@estererhof.de"
+      ],
+      "phones": [
+        "0151-587 453 41"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "f.d_apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.beach-apartments-hhf.de/ferienwohnung-ostsee-direkt-am-strand",
+      "website_confidence": "high",
+      "emails": [
+        "heiligenhafen@beachmotels.de"
+      ],
+      "phones": [
+        "04.07.2026",
+        "09.07.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_multi_unit_gmbh",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fabelhaus_wohnenleben",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.office.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "03442.418",
+        "000000000000"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fenjoy.apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://obsproject.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferien_auf_dem_nengshof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://desktop.github.com/download/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferien_gut_priesholz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.gut-priesholz.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@wittkiel-gruppe.de",
+        "ferien@gut-priesholz.de"
+      ],
+      "phones": [
+        "04642-1658",
+        "0173 4992002"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienbauernhof_kilger_",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "feriendorf_felsenhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.landreise.de/expose/felsenhof-16293/",
+      "website_confidence": "high",
+      "emails": [
+        "service@landreise.de",
+        "kontakt@lvdigital.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "feriendorf_lechbruck",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://ferienwohnung.check24.de/reiseziele/deutschland/bayern/allgaeu/ostallgaeu/lechbruck-id213647",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "feriendorfponyhof",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.timeanddate.com/date/dateadd.html",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "feriendorfslawitsch",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.feriendorfslawitsch.de/ferienwohnungen/",
+      "website_confidence": "high",
+      "emails": [
+        "info@feriendorfslawitsch.de",
+        "kundenservice@bos-waermedesign.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhaus.harzglueck",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.harz-travel.de/ferienhaus/friedrichsbrunn/1023209/ferienhaus-harzglueck.php",
+      "website_confidence": "medium",
+      "emails": [
+        "info@harz-travel.de",
+        "info@travanto.de"
+      ],
+      "phones": [
+        "040 38 01 78",
+        "05.05.2025"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_small_single_property",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhaus.herrenwies",
+      "platform": "instagram",
+      "outreach_date": "2026-05-23",
+      "status": "ghosted",
+      "website": "https://ferienhaus-herrenwies.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@ferienhaus-herrenwies.de"
+      ],
+      "phones": [
+        "03.06.2021",
+        "+49 152 3359 2270"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhaus_eifelruhe",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.eifel.info/hotel-fewo-eifel/a-ferienwohnuhng-eifelruhe",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhaus_hermine_pellworm",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.crunchyroll.com/pt-br/series/GR75Q020Y/boruto-naruto-next-generations",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhaus_murmel",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.ferienhaus-almfrieden.de/ferienwohnung-murmele/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "08323-994854"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhaus_ockenfels",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://ferienhaus-ockenfels.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@ferienhaus-ockenfels.de"
+      ],
+      "phones": [
+        "+49 160 97916764"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhaus_roomina",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.ferienhausmiete.de/ferienwohnung-ferienhaus-urlaub/werlte/r22717",
+      "website_confidence": "high",
+      "emails": [
+        "support@ferienhausmiete.de"
+      ],
+      "phones": [
+        "08.08.2026",
+        "01.08.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhaus_seepark",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhausnaturnah",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhof.kohn",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://ferienhof-kohn.de/kontakt/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@ferienhof-kohn.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhof_kiesel",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.ferienhof-kiesel.de/ferienwohnungen/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "08320-323"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhof_schmetterlingsgarten",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.google.at/index.html",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhof_wulff",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.pferdesachen-blog.de/ferienunterkunft/ferienhof-wulff-fewo-hooge",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhofeger",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienhofschauer",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://mmorpg.gg/best-free-to-play-mmorpgs/",
+      "website_confidence": "medium",
+      "emails": [
+        "contact@mmorpg.gg"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhofstaerk",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "replied_positive",
+      "website": "https://helenkuckling.de/instagram-fuer-deine-ferienwohnung/",
+      "website_confidence": "medium",
+      "emails": [
+        "moin@helenkuckling.de"
+      ],
+      "phones": [],
+      "response_snippet": "danke fuer deine Nachricht, ich nehme an ihr betreibt den Austausch als Business und waere demnach kostenpflichtig?",
+      "response_date": "2026-05-29T13:30",
+      "note": "Theresa (Marketing) Ferienhof Staerk, Bodensee-Allgaeu. Engaged: Preis-Frage, dann Free/Entry-Produkt zugesagt, Portal-Link gesendet (getportal.arbio.com), reagiert mit Daumen-hoch. Aktiv in Produkt-Testphase.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_ferienhof_family",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhofthomsen2263",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.ferienhausmiete.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "support@ferienhausmiete.de"
+      ],
+      "phones": [
+        "+49 30 555 722 975"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_ferienhof_single_op",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienhofwieser",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://claude.ai/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ferienhof_selbstvermieter_bayern",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnung.guckelsby",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.guckelsby.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "karen.vonbargen@web.de"
+      ],
+      "phones": [
+        "0179-5088265"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienwohnung.rebennah",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.moselhotel-weiskopf.com/ferienwohnungen",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnung_blackforest",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "http://ferienwohnungen-baiersbronn.de/impressum.htm",
+      "website_confidence": "high",
+      "emails": [
+        "post@blackforest-fewo.de"
+      ],
+      "phones": [
+        "+49 176 57826825"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienwohnung_blankenburg",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_family_harz",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnung_boven_timmel",
+      "platform": "instagram",
+      "outreach_date": "2026-06-09",
+      "status": "ghosted",
+      "website": "https://www.traum-ferienwohnungen.at/europa/deutschland/aurich/grossefehn/timmel/",
+      "website_confidence": "high",
+      "emails": [
+        "info@traum-ferienwohnungen.de"
+      ],
+      "phones": [
+        "+49 421 14 629 777"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienwohnung_freudensee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://connexion.enthdf.fr/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnung_lili",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnung_st.andreasberg",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.harz-travel.de/ferienwohnungen-ferienhaeuser-St-Andreasberg/?page=10",
+      "website_confidence": "high",
+      "emails": [
+        "info@harz-travel.de"
+      ],
+      "phones": [
+        "040 38 01 78"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienwohnung_uckermark",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungen.perfeldhof",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://admin.cloud.microsoft/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungen.ruebenkaemper",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://radar.avrotros.nl/artikel/ziggo-en-kpn-voegen-extras-toe-aan-abonnement-en-verhogen-prijzen-mag-dat-wel-62681",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "06 83 65 15"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienwohnungen_freude",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://stackoverflow.com/questions/12243818/adding-google-translate-to-a-web-site",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungen_friederich",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungen_ploen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.chatroom2000.de/chat-login/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungen_trautesheim",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://ostfriesland-domizile.de/ferienwohnung/ferienwohnung-2-im-ferienhaus-trautes-heim/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungen_walter",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungjunge",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ferienwohnungp16",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "rejected",
+      "website": "https://br.ccm.net/forum/affich-516193-perdi-meu-celular-como-acessar-whatsapp-no-pc-sem-ele",
+      "website_confidence": "medium",
+      "emails": [
+        "mdmacedos@yahoo.com.br"
+      ],
+      "phones": [],
+      "response_snippet": "Hallo, vielen Dank für das Angebot. Derzeit habe ich keinen Bedarf. Deine Leistungen werden ja nicht kostenlos sein und unsre Auslastung ist mehr als ok. Viele Grüße David",
+      "response_date": "2026-05-21T12:25",
+      "note": "Echte persönliche Antwort von David Grimm. Auslastung ist mehr als ok, keine Notwendigkeit. Antwort gegen Kosten-Annahme.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "ferienwohnungseestern",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.reddit.com/r/GoogleMaps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewo.sonnennest",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.google.de/scholar",
+      "website_confidence": "medium",
+      "emails": [
+        "support-deutschland@google.com"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewo_am_kunstanger_no.87",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.hilton.com/de/hotels/muctmhi-hilton-munich-airport/?msockid=2399206d36dd64a90400371e37ea6545",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewo_auerhahn_braunlage",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://fewo-auerhahn.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@fewo-auerhahn.de"
+      ],
+      "phones": [
+        "+49 157-73818892"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewo_eifelglueck",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.pelm.de/tourismus/unterkunft/ferienwohnung-appartement-eifelglueck",
+      "website_confidence": "high",
+      "emails": [
+        "fewoeifelglueck@gmail.com"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewo_familie_boemer",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewo_garten_oase_berlin",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://fewo-gartenoase.de/ferienwohnungen/",
+      "website_confidence": "high",
+      "emails": [
+        "uleyke@gmail.com"
+      ],
+      "phones": [
+        "+49 1522 653 25 11",
+        "018738-25"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewo_herz_im_allgaeu",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.zhihu.com/question/640400216",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewo_in_winterberg",
+      "platform": "instagram",
+      "outreach_date": "2026-06-09",
+      "status": "ghosted",
+      "website": "https://www.sauerland-travel.de/ferienwohnungen-ferienhaeuser-Winterberg/",
+      "website_confidence": "high",
+      "emails": [
+        "info@sauerland-travel.de"
+      ],
+      "phones": [
+        "040 38 01 78"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewo_lilly.max_sylt",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.fewo-lilly-max.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@fewo-lilly-max.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewo_seeidyll_am_worthsee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "http://www.rjforum.pl/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewo_spreezauber",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.kramp.com/shop-nl/nl",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "0315 254 299"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fewoharztastisch",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewooge",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.fewooge.de/s",
+      "website_confidence": "high",
+      "emails": [
+        "info@fewooge.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "feworeichenbach",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewoservicebodensee",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "fewothiesen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-26",
+      "status": "ghosted",
+      "website": "https://pst.giustizia.it/",
+      "website_confidence": "medium",
+      "emails": [
+        "info-ppt@giustizia.it",
+        "info-pct@giustizia.it"
+      ],
+      "phones": [
+        "01/06/2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fjordcottage",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.fjordcottage.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@fjordcottage.de"
+      ],
+      "phones": [
+        "+491725312836"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "fleigenhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.fleigenhof.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@fleigenhof.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "forsthaus_hirsch",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.forsthaus-hausbach.de/property-details/forsthaus-haupthaus-wohnung-hirsch",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "friesen_apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.friesenholiday.com/",
+      "website_confidence": "high",
+      "emails": [
+        "info@friesenholiday.com"
+      ],
+      "phones": [
+        "+49 4426\n2029981",
+        "+49 4426 20 29 981"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2",
+      "has_contact_data": true
+    },
+    {
+      "handle": "gernhochzwo_unterwoessen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.gernhochzwo.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@chiemgau-comfort.com"
+      ],
+      "phones": [
+        "+49 8624 8959130"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "gowiththeflow_noordwijk",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "rejected",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "Hi Robert, dank voor je berichtje. Het is voor mij niet aantrekkelijk om met een andere tussenpartij samen te werken omdat minder rendabel is. Ook is er geen noodzaak omdat ik het hele seizoen volgeboekt zit. Maar dank voor de interesse!",
+      "response_date": "2026-05-21T11:26",
+      "note": "Echte persönliche Antwort auf Niederländisch. Annick hat uns als Vermittler missverstanden (Misverständnis Arbio vs Vermittlungsplattform). Ausgebucht für die Saison.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "grenz.farm",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.visit-mv.com/destinations/a-agribusiness-large-border-regiobox",
+      "website_confidence": "medium",
+      "emails": [
+        "info@ggab-gr-grenz.de"
+      ],
+      "phones": [
+        "+49 3844 813792"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "grubdanielhof_ferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-06-09",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "gut.oehe",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.gut-oehe.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "urlaub@gut-oehe.de"
+      ],
+      "phones": [
+        "+49 4642 9248 700",
+        "+49 4642 6124"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "gutbuckhagen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.gut-buckhagen.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "kontakt@gut-buckhagen.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "gutdalwitz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.hs-nb.de/studium-weiterbildung/im-studium/studien-und-pruefungsangelegenheiten/sb-online",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "+49 395 5693-0",
+        "+49 395 5693-9999"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off_or_ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "gutoestergaard",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://notube.net/pl/youtube-app-343",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "hahnenkleer_bergglueck",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://schleswig-holstein.nabu.de/tiere-und-pflanzen/voegel/weissstorch/03614.html",
+      "website_confidence": "medium",
+      "emails": [
+        "Info@NABU-SH.de"
+      ],
+      "phones": [
+        "04321.75720-60"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "harz.and.soul_ferienhaus_lodge",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.provenexpert.com/de-de/ferienhaus-harz-soul/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "haus.margarete",
+      "platform": "instagram",
+      "outreach_date": "unknown",
+      "status": "ghosted",
+      "website": "https://www.haus-margarete.com/impressum.html",
+      "website_confidence": "medium",
+      "emails": [
+        "info@haus-margarete.com"
+      ],
+      "phones": [
+        "+49 6641 4455"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ferienhaus_operator",
+      "has_contact_data": true
+    },
+    {
+      "handle": "haus_woegens",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.ilovepdf.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "hauserhof.habachtal",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.urlaubambauernhof.at/de/hoefe/hauserhof-bramberg",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "+43 6566 7383"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "hausgrossmoos",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://superuser.com/questions/632891/what-is-appdata",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "hausschmidamsee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.zhihu.com/question/1945629068243481180",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "heimatglueck_schwarzwald",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://heimatglueck-schwarzwald.renchtal.com/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "himmelundmeer.sylt",
+      "platform": "instagram",
+      "outreach_date": "unknown",
+      "status": "ghosted",
+      "website": "https://www.rudloff-sylt.de/unterkuenfte/himmel-meer/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@rudloff-sylt.de"
+      ],
+      "phones": [
+        "01.05.2026",
+        "04651 9959299"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ferienhaus_operator",
+      "has_contact_data": true
+    },
+    {
+      "handle": "hoechi.be",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "hoepershof_sylt",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://vk.com/kvcraft",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off_investor",
+      "has_contact_data": false
+    },
+    {
+      "handle": "hofschwericke",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "holiday_apartment_isaak",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.timeanddate.com/holidays/us/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "holidayvitalresort",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.nps.gov/seki/planyourvisit/moro.htm",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "huusluettjefinja",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://buchung.frieseninseln.de/detail/140-268413/huus-luttje-finja",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "012670048"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "hyggebaltic",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.tagesschau.de/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "09.06.2026",
+        "07.06.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "hyggeliving_apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://devforum.roblox.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ihrsylturlaub",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.sylterwintermarkt.de/ihrsylturlaub",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_operator_with_services",
+      "has_contact_data": false
+    },
+    {
+      "handle": "imbirkenweg",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.nfl.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "jonagold_kellenhusen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.heidisql.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "karlbacherdomizil",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://kahoot.it/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "karnerlehen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://web2.0calc.fr/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "kehrwieder_kellenhusen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.kellenhusen-kehrwieder.de/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "04364 4716866",
+        "0178 3378393"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "klasenhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://web.whatsapp.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "bauernhof_selbstvermieter_bayern",
+      "has_contact_data": false
+    },
+    {
+      "handle": "koenig_appartement",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.da-agency.de/referenzprojekt/koenig-appartement-sylt-ferienhaeuser-ferienwohnungen/",
+      "website_confidence": "high",
+      "emails": [
+        "urlaub@koenig-sylt.de",
+        "info@da-agency.de"
+      ],
+      "phones": [
+        "0221-64309972",
+        "+49-221-64309972"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "kraushaarferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off_or_ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ks_hof_mauseort",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "rejected",
+      "website": "https://traudioberstdorf.org/instagram/",
+      "website_confidence": "medium",
+      "emails": [
+        "fewo.taudi@mnet-mail.de"
+      ],
+      "phones": [],
+      "response_snippet": "Hallo Robert, ich sehe das richtig, dass du nichts buchen möchtest, sondern für mich Kunden suchen würdest? Wenn es so ist, dann brauche ich das nicht, da ich immer recht gut gebucht bin.",
+      "response_date": "2026-05-21T14:48",
+      "note": "Karsten Strehl, Hof Mauseort MV. Hat Misverstaendnis: dachte wir suchen Kunden (Buchungsagentur). Hat hoeflich abgesagt + offen fuer den umgekehrten Fall (wenn wir selber Bedarf haetten).",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "kuesten.komfort",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://downloads.cpp.canon/ProductDownloads/Index/1350",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "kuesten_apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.kuesten-apartment.de/apartments",
+      "website_confidence": "high",
+      "emails": [
+        "vermietung@kuesten-apartment.de"
+      ],
+      "phones": [
+        "+49 1522 575 605 4"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2",
+      "has_contact_data": true
+    },
+    {
+      "handle": "laendleapartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "rejected",
+      "website": "https://laendleapartments.at/",
+      "website_confidence": "high",
+      "emails": [
+        "info@laendleapartments.at"
+      ],
+      "phones": [],
+      "response_snippet": "Vielen Dank für Ihre Nachricht. Wir melden uns schnellstmöglich bei Ihnen. Wenn es eilt, bitte kurz anrufen. Tel. 0043 664 38 58 885",
+      "response_date": "2026-05-21T11:24",
+      "note": "Auto-Reply nach DM #54. Telefonnummer in der Reply. Sabine und Hubert Fink, Ländleapartments Höchst Vorarlberg.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "lakehouse.bodensee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "landromantik",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "postponed",
+      "website": "https://www.ferienappartements-landromantik.de/die-gastgeber/kontakt/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "+49 3591 603070",
+        "+49 172 8413171"
+      ],
+      "response_snippet": "Lieber Robert, Zur zeit ist die Anfrage ungünstig da wir uns mitten in Baumaßnahmen befinden. Vielleicht zu einem späteren Zeitpunkt.",
+      "response_date": "2026-05-21T13:11",
+      "note": "Doris Wuensche + Thomas Knobloch von Ferienappartements Landromantik in Malschwitz/Rittergut (Oberlausitz). Antwort am 2026-05-21 Mi um 14:49 auf Outreach vom 2026-05-20. Robert hat hoeflich geantwortet: viel Erfolg + offen fuer Zukunft. Doris/Thomas haben darauf mit Daumen-hoch reagiert.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "lieblingsplatz_sylt",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://ostfriesland-domizile.de/ferienwohnung/lieblingsplatz-2/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_small_operator",
+      "has_contact_data": false
+    },
+    {
+      "handle": "luettjeseeblick13",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.xn--lttjeseeblick13-zvb.de/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "0171/6204731"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "luxus_ferienhaus_inselblick",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.spring-certification.com/spring-exam-details",
+      "website_confidence": "medium",
+      "emails": [
+        "info.springcertification@gmail.com"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "meeresquartier",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.travanto.de/ferienwohnungen/koserow/1048591/meeresquartier-haus-usedom-appartement-meeresoase.php",
+      "website_confidence": "high",
+      "emails": [
+        "info@travanto.de"
+      ],
+      "phones": [
+        "04.09.2025",
+        "04.07.2025"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "meerzeitfuerferien",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_resort_multi_unit",
+      "has_contact_data": false
+    },
+    {
+      "handle": "mehrlandleben",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "melou_fewo_harz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.kleinanzeigen.de/s-anzeige/melou-ferienwohnung-harzruhe-wellness-sauna-pool-2-personen/3204444223-275-2802",
+      "website_confidence": "high",
+      "emails": [
+        "behoerdenanfragen@kleinanzeigen.de",
+        "impressum@kleinanzeigen.de"
+      ],
+      "phones": [
+        "+49 30 13881317",
+        "03.03.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "moehrenblick.62",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "mosel_wein_quartier_piesport",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.ferienhausmiete.de/ferienwohnung-ferienhaus-urlaub/piesport/r17465",
+      "website_confidence": "high",
+      "emails": [
+        "support@ferienhausmiete.de"
+      ],
+      "phones": [
+        "08.08.2026",
+        "06.12.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "mv_ferienhaeuser",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://invitario.com/",
+      "website_confidence": "medium",
+      "emails": [
+        "rechnung@invitario.com",
+        "sales@invitario.com",
+        "support@invitario.com"
+      ],
+      "phones": [
+        "+49 69 1532 5880",
+        "+41-43-5089-6220"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "STR_operator_multi_unit",
+      "has_contact_data": true
+    },
+    {
+      "handle": "nadesu.apartments",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://fewolino.com/ferienwohnung-instagram-linktree/",
+      "website_confidence": "medium",
+      "emails": [
+        "hello@fewolino.com"
+      ],
+      "phones": [
+        "0001231548",
+        "+49 178 714 2748"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "naturresort.steinwald",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "new_haus",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/prasentation-fewo-instagram/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ninasnordseehaeuser",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://traudioberstdorf.org/instagram/",
+      "website_confidence": "medium",
+      "emails": [
+        "fewo.taudi@mnet-mail.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "nordsee_ferienhaus_cuxlandpark",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.cuxlandparks.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@cuxlandparks.de"
+      ],
+      "phones": [
+        "+49 4741 39-0",
+        "+49 4741 3366"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "nordseebuden",
+      "platform": "instagram",
+      "outreach_date": "2026-05-26",
+      "status": "ghosted",
+      "website": "https://www.nordseebuden.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@nordseebuden.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "Nordsee_Fewo",
+      "has_contact_data": true
+    },
+    {
+      "handle": "obererstrickerhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.fewo-ferienwohnung-schwarzwald.de/-steinach/bauernhof-oberer-strickerhof-wiesenblick/detail/2796/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@vfnm.de"
+      ],
+      "phones": [
+        "07634-5070110",
+        "07832 979896"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "obst_ferienhof_mainberger",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://ferienhof-mondsee.com/ferienwohnungen-mondsee/",
+      "website_confidence": "high",
+      "emails": [
+        "mitterbauer@ferienhof-mondsee.com"
+      ],
+      "phones": [
+        "+43.650.88 21 255"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "oltmannundbengsch",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/prasentation-fewo-instagram/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ostsee_ferienwohnung",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.ostsee-ferienwohnung.com/impressum.html",
+      "website_confidence": "high",
+      "emails": [
+        "info@ostsee-ferienwohnung.com",
+        "info@jdtravel.de"
+      ],
+      "phones": [
+        "0173 413 4060"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "panorama.nest_sauerland",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.sauerland-travel.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@sauerland-travel.de"
+      ],
+      "phones": [
+        "040 38 01 78"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "panoramablickapartment",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.office.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "03442.418",
+        "000000000000"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "paradisio.bodensee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_premium_selbstvermietend",
+      "has_contact_data": false
+    },
+    {
+      "handle": "preindlerhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "replied_positive",
+      "website": "https://www.eng-tips.com/threads/transformer-an-vs-af.184665/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "Schickt uns gerne genauere Infos zu: info@preindlerhof.com",
+      "response_date": "2026-05-21T12:42",
+      "note": "POSITIVE Lead. Familie Kargruber-Indrist möchte konkrete Info-Mail an info@preindlerhof.com. Action needed: Robert oder Julia sollten Email senden.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "prime_ferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.primevideo.com/collection/IncludedwithPrime",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "primeloft.de",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://zipdo.co/best/automotive-repair-software/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "rauszeitspo",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "reetdorfgeltingerbirk",
+      "platform": "instagram",
+      "outreach_date": "unknown",
+      "status": "ghosted",
+      "website": "https://www.y8.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "019121165"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ferienhaus_operator",
+      "has_contact_data": true
+    },
+    {
+      "handle": "residenz_klein_vink_300",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.residenz-kleinvink-300.de/de/Impressum/",
+      "website_confidence": "high",
+      "emails": [
+        "frank.lehmkoester@web.de"
+      ],
+      "phones": [
+        "004309694",
+        "+4917698456948"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "rhoener_tiny_house",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.mydatabook.org/solid-mechanics/stress-for-thick-walled-cylinders-and-spheres-using-lames-equations/",
+      "website_confidence": "medium",
+      "emails": [
+        "webmaster@mydatabook.org"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "robert_hndl",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.vacationrenter.com/de-de/p/400654580",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "off_icp",
+      "has_contact_data": false
+    },
+    {
+      "handle": "ruhrtalvillaferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-06-10",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "runhof4710",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://chatgpt.com/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "rupprecht_ferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "replied_positive",
+      "website": "https://in-cuxhaven.info/ferienwohnung-in-cuxhaven-vermietungsburo-andre-rupprecht/",
+      "website_confidence": "high",
+      "emails": [
+        "info@ferienwohnung-nordsee.de"
+      ],
+      "phones": [
+        "04721-559182",
+        "04721-426100"
+      ],
+      "response_snippet": "Moin, Moin und vielen Dank fuer ihre Nachricht und freundliche Kontaktaufnahme. Wir werden uns schnellstmoeglich um ihr Anliegen kuemmern.",
+      "response_date": "2026-06-01",
+      "note": "Auto-Reply Feriendomizile Rupprecht Nordsee Cuxhaven. Kontaktdaten in Reply: +49 4721 201099, info@ferienwohnung-nordsee.de. Keine persoenliche Antwort bisher.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "scheunenhauskienspan",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.fewo-bergsucht.de/impressum.html",
+      "website_confidence": "medium",
+      "emails": [
+        "info@fewo-bergsucht.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "schlettererhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.schlettererhof.it/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "02.10.26",
+        "02208400214"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "schlossgelting",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "http://urlm.de/www.schlossgelting.de",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "schwarzwald_heimat",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.schwarzwald-heimat.de/kontakt/",
+      "website_confidence": "high",
+      "emails": [
+        "hallo@schwarzwald-heimat.de"
+      ],
+      "phones": [
+        "+49 174 799 45 39"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "schwarzwaldbuchenhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.hochschwarzwald.de/planen-buchen/unterkuenfte/ferienwohnungen",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "seetraum_somma_konstanz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.ferienwohnungen-bodensee.de/suche/konstanz/873-ferienwohnung-see-traum-in-konstanz-am-bodensee",
+      "website_confidence": "high",
+      "emails": [
+        "info@tourismus-bodensee.de"
+      ],
+      "phones": [
+        "01515-0711990",
+        "07531-959509"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "serneramsee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.serner.at/wohnen",
+      "website_confidence": "medium",
+      "emails": [
+        "info@serner.at"
+      ],
+      "phones": [
+        "+43 664 1144616",
+        "+43 6234 8647"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "smuck.hus.usedom",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.dansommer.de/deutschland/ferienhaus-fischerdorf-zirchow-usedom-dmu197",
+      "website_confidence": "medium",
+      "emails": [
+        "dansommer@dansommer.de"
+      ],
+      "phones": [
+        "+45 9797 5757"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "smucke_stuuvs",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://maps.google.de/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "sonnenseite_schwarzwald_fewo",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "spreewaldast",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://spreewaldast.de/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "spreewaldinsel",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.spreewald-unterkuenfte.de/spreewald/spreewaldinsel-leipe-luebbenau",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "stay_altes_forsthaus",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://thelyricsgenie.com/lyrics/stay",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "strand_resort_heiligenhafen",
+      "platform": "instagram",
+      "outreach_date": "2026-05-20",
+      "status": "ghosted",
+      "website": "https://www.heiligenhafen-strandresort.com/about/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "strandperlen.de",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.amazon.fr/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "strandquartierewangerooge",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_property_manager",
+      "has_contact_data": false
+    },
+    {
+      "handle": "sylt_apart_westerland",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_small_operator",
+      "has_contact_data": false
+    },
+    {
+      "handle": "syltbals",
+      "platform": "instagram",
+      "outreach_date": "unknown",
+      "status": "ghosted",
+      "website": "https://bals-sylt.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "vermietung@bals-sylt.de"
+      ],
+      "phones": [
+        "06.01.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ferienhaus_operator",
+      "has_contact_data": true
+    },
+    {
+      "handle": "sylter.hahn",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.sylter-hahn.de/zimmer/ferienwohnungen/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@sylter-hahn.de"
+      ],
+      "phones": [
+        "+49 4651 92 82 22",
+        "+49 4651 92 820"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "sylterappartementservice",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.zhihu.com/question/831433092",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "taunus.suites",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://taunussuites.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@taunussuites.de"
+      ],
+      "phones": [
+        "+49 1772367559"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "techts_timmendorfer_strand",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://ferienwohnungtimmendorferstrand.com/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "the_regina_house",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "theculthouse1889",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.fewo-owl.de/impressum.htm?font=dec",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "timpes_ferienwohnungen",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.ferienwohnungen-kroatien.at/ferienwohnungen/podgora/luxury-podgora/6036",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "STR_operator_family",
+      "has_contact_data": false
+    },
+    {
+      "handle": "urlaub.schwarzwald",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.schwarzwald-netz.com/",
+      "website_confidence": "medium",
+      "emails": [
+        "news@max-td.com",
+        "urlauber@e-domizil.de",
+        "kontakt@voyage-media.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "urlaub_im_harz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "replied_positive",
+      "website": "https://www.harz-travel.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@harz-travel.de"
+      ],
+      "phones": [
+        "040 38 01 78"
+      ],
+      "response_snippet": "Hallo, danke für deine Kontaktaufnahme...",
+      "response_date": "2026-05-21T10:58",
+      "note": "Antwort innerhalb von 2 Minuten nach DM #47. Tilo Breuer, Auszeit im Harz HIGH VALUE Lead. Volle Nachricht noch nicht gelesen.",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": true
+    },
+    {
+      "handle": "urlaub_mitherzimharz",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.urlaubspiraten.de/",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "089-20700 1535",
+        "080632"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "urlaub_weiss_sylt",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.sylt-travel.de/",
+      "website_confidence": "high",
+      "emails": [
+        "info@travanto.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "urlaubanderostsee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-22",
+      "status": "ghosted",
+      "website": "https://www.maennlichen.ch/de/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [
+        "+41 33 853 10 68"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "urlaubsdomizilenorderney",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.urlaubsdomizile-norderney.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@urlaubsdomizile-norderney.de"
+      ],
+      "phones": [
+        "04932-93 59 476",
+        "0178-7019601"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "urlaubundferienhaus",
+      "platform": "instagram",
+      "outreach_date": "2026-06-01",
+      "status": "ghosted",
+      "website": "https://www.webwiki.de/urlaubundferienhaus.wordpress.com",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "vermietungsservice_lb",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://firmeneintrag.creditreform.de/23683/2270407036/VERMIETUNGSSERVICE_LUEBECKER_BUCHT_GMBH",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": false
+    },
+    {
+      "handle": "villa_puppenhaus_bodensee",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP1_hands_off",
+      "has_contact_data": false
+    },
+    {
+      "handle": "villaweissenrieder",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://holidays.hrs.de/detail/701-GER00020064120444225/villa-weissenrieder",
+      "website_confidence": "medium",
+      "emails": [
+        "ds.gaesteservice@hrs.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "waalhof.kastelbell",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.waalhof-kastelbell.com/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@remove-this.pec",
+        "info@waalhof-kastelbell.com",
+        "info@remove-this.waalhof"
+      ],
+      "phones": [
+        "021018",
+        "03031690211"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "bauernhof_selbstvermieter_suedtirol",
+      "has_contact_data": true
+    },
+    {
+      "handle": "weingut.derkum",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.visitmosel.de/wein-kulinarik/gastro/weingut-gaestehaus-derkum",
+      "website_confidence": "medium",
+      "emails": [
+        "info@weingut-derkum.de",
+        "info@mosellandtouristik.de"
+      ],
+      "phones": [
+        "+49 (6531) 9733"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    },
+    {
+      "handle": "weingut_joerg_thul",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://www.urlaub-in-rheinland-pfalz.de/urlaub/8454/Weingut_und_Gaestezimmer_Joerg_Thul/index.htm",
+      "website_confidence": "high",
+      "emails": [],
+      "phones": [
+        "09.06.2026",
+        "08.06.2026"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "weingutbluemling",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://github.com/features/copilot",
+      "website_confidence": "medium",
+      "emails": [
+        "copilot-safety@github.com.Das"
+      ],
+      "phones": [
+        "02/2024"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP2_professional",
+      "has_contact_data": true
+    },
+    {
+      "handle": "wenning.35",
+      "platform": "instagram",
+      "outreach_date": "unknown",
+      "status": "ghosted",
+      "website": "https://wenning35.de/",
+      "website_confidence": "medium",
+      "emails": [
+        "info@wenning35.de"
+      ],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ferienhaus_operator",
+      "has_contact_data": true
+    },
+    {
+      "handle": "wohlbfinden",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/gratis-ebook-51-instagram-marketing-tipps/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": false
+    },
+    {
+      "handle": "zugastinhalle",
+      "platform": "instagram",
+      "outreach_date": "2026-06-09",
+      "status": "ghosted",
+      "website": "",
+      "website_confidence": "none",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "",
+      "has_contact_data": false
+    },
+    {
+      "handle": "zumbuntenbeet",
+      "platform": "instagram",
+      "outreach_date": "2026-05-25",
+      "status": "ghosted",
+      "website": "https://www.lodgify.com/blog/de/prasentation-fewo-instagram/",
+      "website_confidence": "medium",
+      "emails": [],
+      "phones": [],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP_single_fewo",
+      "has_contact_data": false
+    },
+    {
+      "handle": "zwanzgerhof",
+      "platform": "instagram",
+      "outreach_date": "2026-05-21",
+      "status": "ghosted",
+      "website": "https://zwanzgerhof.at/ferienwohnungen/",
+      "website_confidence": "high",
+      "emails": [
+        "urlaub@zwanzgerhof.at"
+      ],
+      "phones": [
+        "+43 4254 2933",
+        "+43 676 38 09 162"
+      ],
+      "response_snippet": "",
+      "response_date": "",
+      "note": "",
+      "persona": "team.arbio",
+      "icp_segment": "ICP3_self_managing",
+      "has_contact_data": true
+    }
+  ]
+}
