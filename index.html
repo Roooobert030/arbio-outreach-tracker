@@ -75,6 +75,31 @@
   .no-data { color: #444; font-size: 12px; }
 
   #empty-msg { text-align: center; padding: 48px; color: var(--muted); display: none; }
+
+  /* Chat log toggle button */
+  .chat-btn { background: none; border: 1px solid var(--border); color: var(--muted); border-radius: 6px; padding: 3px 8px; font-size: 11px; cursor: pointer; white-space: nowrap; transition: all 0.15s; }
+  .chat-btn:hover { border-color: var(--accent); color: var(--text); }
+  .chat-btn.has-msgs { border-color: #3b82f640; color: var(--blue); }
+
+  /* Inline chat log row */
+  .chat-row { background: #12121a; }
+  .chat-row td { padding: 0; }
+  .chat-inner { padding: 12px 20px 16px 60px; border-bottom: 1px solid var(--border); }
+  .chat-messages { display: flex; flex-direction: column; gap: 10px; max-width: 700px; }
+
+  .msg-bubble { display: flex; flex-direction: column; gap: 2px; }
+  .msg-meta { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); }
+  .msg-meta .who { font-weight: 600; }
+  .msg-meta .who.arbio { color: var(--accent); }
+  .msg-meta .who.contact { color: var(--green); }
+  .msg-meta .who.system { color: var(--yellow); }
+  .msg-meta .reconstructed-tag { background: #f59e0b18; color: #f59e0b; border: 1px solid #f59e0b30; border-radius: 4px; padding: 1px 5px; font-size: 10px; }
+  .msg-body { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; font-size: 13px; line-height: 1.6; color: var(--text); white-space: pre-wrap; word-break: break-word; }
+  .msg-bubble.arbio .msg-body { border-color: #7c6af730; background: #7c6af710; }
+  .msg-bubble.contact .msg-body { border-color: #22c55e30; background: #22c55e08; }
+  .msg-bubble.system .msg-body { border-color: #f59e0b40; background: #f59e0b10; color: var(--yellow); font-style: italic; }
+  .msg-note { font-size: 11px; color: #555; margin-top: 2px; font-style: italic; }
+  .msg-sentiment { display: inline-block; font-size: 10px; padding: 1px 5px; border-radius: 4px; background: #ffffff10; color: var(--muted); }
 </style>
 </head>
 <body>
@@ -108,7 +133,7 @@
         <th>Email</th>
         <th>Telefon</th>
         <th>Kontaktiert</th>
-        <th>Notiz</th>
+        <th>Chat-Log</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -166,6 +191,44 @@ function escHtml(s) {
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+const TYPE_LABELS = {
+  initial_dm: 'Initial DM',
+  followup_bump: 'Follow-up (Bump)',
+  followup_roi: 'Follow-up (ROI)',
+  followup_wa: 'Follow-up (WhatsApp)',
+  followup_meeting: 'Follow-up (Meeting)',
+  response: 'Antwort',
+  followup_response: 'Weitere Antwort',
+  our_reply: 'Unsere Antwort',
+  reply: 'Unsere Antwort',
+  reaction: 'Reaktion',
+  action_required: 'Aktion erforderlich',
+};
+
+function buildChatHtml(log) {
+  if (!log || log.length === 0) return '<div style="color:#555;padding:8px 0;font-size:12px">Keine Nachrichten gespeichert.</div>';
+  return log.map(msg => {
+    const sender = msg.sender || 'arbio';
+    const whoLabel = sender === 'arbio' ? 'Robert (Arbio)' : sender === 'contact' ? '@' + '...' : 'System';
+    const typeLabel = TYPE_LABELS[msg.type] || msg.type;
+    const ts = (msg.ts || '').slice(0,16).replace('T',' ');
+    const reconTag = msg.reconstructed ? '<span class="reconstructed-tag">rekonstruiert</span>' : '';
+    const sentiment = msg.sentiment ? `<span class="msg-sentiment">${escHtml(msg.sentiment)}</span>` : '';
+    const note = msg.note ? `<div class="msg-note">${escHtml(msg.note)}</div>` : '';
+    return `<div class="msg-bubble ${escHtml(sender)}">
+      <div class="msg-meta">
+        <span class="who ${escHtml(sender)}">${escHtml(whoLabel)}</span>
+        <span>${escHtml(typeLabel)}</span>
+        ${ts ? `<span>${escHtml(ts)}</span>` : ''}
+        ${reconTag}
+        ${sentiment}
+      </div>
+      <div class="msg-body">${escHtml(msg.text || '')}</div>
+      ${note}
+    </div>`;
+  }).join('');
+}
+
 function renderTable(contacts) {
   const tbody = document.getElementById('tbody');
   const empty = document.getElementById('empty-msg');
@@ -176,7 +239,8 @@ function renderTable(contacts) {
   }
   empty.style.display = 'none';
 
-  tbody.innerHTML = contacts.map(c => {
+  const rows = [];
+  contacts.forEach((c, idx) => {
     const emails = (c.emails || []).map(e =>
       `<a class="email-link" href="mailto:${escHtml(e)}">${escHtml(e)}</a>`
     ).join('<br>') || '<span class="no-data">—</span>';
@@ -191,24 +255,44 @@ function renderTable(contacts) {
 
     const statusBadge = `<span class="badge ${escHtml(c.status)}">${STATUS_LABELS[c.status] || c.status}</span>`;
 
-    const noteHtml = c.response_snippet
-      ? `<div class="note-cell">"${escHtml(c.response_snippet.slice(0,100))}${c.response_snippet.length > 100 ? '…' : ''}"</div>`
-      : (c.note ? `<div class="note-cell">${escHtml(c.note.slice(0,100))}</div>` : '<span class="no-data">—</span>');
-
     const igUrl = `https://instagram.com/${c.handle}`;
     const dateHtml = c.outreach_date ? `<div class="date-cell">${escHtml(c.outreach_date)}</div>` : '';
     const respDateHtml = c.response_date ? `<div class="date-cell" style="color:#666">Reply: ${escHtml(c.response_date.slice(0,10))}</div>` : '';
 
-    return `<tr data-status="${c.status}" data-has-email="${c.emails && c.emails.length > 0}">
+    const logLen = (c.conversation_log || []).length;
+    const hasRealMsgs = (c.conversation_log || []).some(m => m.sender === 'contact');
+    const chatBtnClass = hasRealMsgs ? 'chat-btn has-msgs' : 'chat-btn';
+    const chatBtnLabel = hasRealMsgs ? `Chat (${logLen}) ✦` : `Log (${logLen})`;
+    const rowId = `row-${idx}`;
+
+    rows.push(`<tr id="${rowId}" data-status="${c.status}" data-has-email="${c.emails && c.emails.length > 0}" data-idx="${idx}">
       <td><a class="handle" href="${igUrl}" target="_blank">@${escHtml(c.handle)}</a></td>
       <td>${statusBadge}</td>
       <td>${websiteHtml}</td>
       <td>${emails}</td>
       <td>${phones}</td>
       <td>${dateHtml}${respDateHtml}</td>
-      <td>${noteHtml}</td>
-    </tr>`;
-  }).join('');
+      <td><button class="${chatBtnClass}" onclick="toggleChat(this, ${idx})">${chatBtnLabel}</button></td>
+    </tr>`);
+
+    // Hidden chat row (will be inserted after main row when opened)
+    rows.push(`<tr id="chat-${idx}" class="chat-row" style="display:none">
+      <td colspan="7">
+        <div class="chat-inner">
+          <div class="chat-messages">${buildChatHtml(c.conversation_log)}</div>
+        </div>
+      </td>
+    </tr>`);
+  });
+
+  tbody.innerHTML = rows.join('');
+}
+
+function toggleChat(btn, idx) {
+  const chatRow = document.getElementById(`chat-${idx}`);
+  const isOpen = chatRow.style.display !== 'none';
+  chatRow.style.display = isOpen ? 'none' : 'table-row';
+  btn.textContent = isOpen ? btn.textContent.replace('▲ ','') : '▲ ' + btn.textContent;
 }
 
 function filterContacts() {

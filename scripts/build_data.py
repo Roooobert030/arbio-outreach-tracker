@@ -30,6 +30,67 @@ SCRAPE_STATE    = os.path.join(INSTA_DIR, "state/scrape_contact_state.json")
 OUTPUT_JSON = os.path.join(DATA_DIR, "contacts.json")
 OUTPUT_CSV  = os.path.join(DATA_DIR, "contacts.csv")
 
+FOLLOWUP_JSON = os.path.join(INSTA_DIR, "state/followup_sent.json")
+
+ARBIO_PITCH = (
+    "Kurz zu mir: Ich bin Robert von Arbio. Wir betreiben selbst Kurzzeitvermietungen von +1500 Apartments "
+    "und unterstützen andere Betreiber u. a. beim Thema Profitabilität im Revenue Management. "
+    "Mit unserem Team erzielen wir bei ähnlichen Setups regelmäßig +20% Umsatz."
+)
+BUMP_TEMPLATES = {
+    "bump":    "{s},\n\nnochmal ein kurzes Follow-up — vielleicht ist meine Nachricht untergegangen. "
+               "Das Angebot zu einem kurzen Austausch über Revenue Management steht weiterhin.\n\nViele Grüße,\nRobert",
+    "roi":     "{s},\n\nich wollte mich nochmal kurz melden und euch unseren Umsatz-Check vorstellen.\n\n"
+               "Kostenlos, unter 5 Minuten:\nhttps://revenue-management.arbio.com/roi-rechner\n\nViele Grüße,\nRobert",
+    "wa":      "{s},\n\nWir bauen eine WhatsApp Community für Betreiber von Kurzzeitvermietungen im DACH-Raum auf:\n"
+               "https://chat.whatsapp.com/JmG2At9BcGX6EXK5TmVpsP\n\nViele Grüße,\nRobert",
+    "meeting": "{s},\n\nnochmal kurz melden — klingt das Thema spannend?\n"
+               "https://meetings-eu1.hubspot.com/sebastian-bentele\n\nViele Grüße,\nRobert",
+}
+
+def build_conversation_log(contact, responses, followups):
+    handle = contact["handle"]
+    salutation = contact.get("salutation", "")
+    closing = "Hättet ihr Lust, euch kurz mit uns auszutauschen?" if "team" in (salutation or "").lower() else "Hättest du Lust, dich kurz mit uns auszutauschen?"
+    log = [{
+        "ts": contact.get("outreach_date",""),
+        "sender": "arbio",
+        "type": "initial_dm",
+        "persona": contact.get("persona","team.arbio"),
+        "salutation": salutation,
+        "text": f"{salutation},\n\n[Personalisierter Einstieg — exakter Text nicht gespeichert, wurde per IG-Recherche generiert]\n\n{ARBIO_PITCH}\n\n{closing}\n\nViele Grüße,\nRobert",
+        "reconstructed": True,
+        "note": "Einleitungszeile war per IG-Profil-Recherche individuell generiert. Pitch-Block + Signatur korrekt."
+    }]
+    if handle in followups:
+        fu = followups[handle]; fu1 = fu.get("fu1", {}); tmpl = fu1.get("template","bump")
+        log.append({"ts": fu1.get("date",""), "sender": "arbio", "type": f"followup_{tmpl}",
+                    "persona": fu1.get("persona","team.arbio"),
+                    "text": BUMP_TEMPLATES.get(tmpl, BUMP_TEMPLATES["bump"]).replace("{s}", salutation or "Hallo"),
+                    "reconstructed": False})
+    if handle in responses:
+        r = responses[handle]
+        if r.get("response_text_snippet"):
+            log.append({"ts": r.get("response_date",""), "sender": "contact", "type": "response",
+                        "text": r["response_text_snippet"], "reconstructed": False,
+                        "sentiment": r.get("sentiment",""), "note": r.get("note","")})
+        if r.get("user_reply_snippet"):
+            s = r["user_reply_snippet"]
+            log.append({"ts": r.get("user_replied_at",""), "sender": "arbio", "type": "our_reply",
+                        "persona": "robert",
+                        "text": s + ("…" if not s.rstrip().endswith((".", "!", "?", "…")) else ""),
+                        "reconstructed": True, "note": "Snippet — vollständiger Text nicht gespeichert"})
+        if r.get("follow_up_message"):
+            log.append({"ts": r.get("follow_up_at",""), "sender": "contact", "type": "followup_response",
+                        "text": r["follow_up_message"], "reconstructed": False, "sentiment": r.get("final_status","")})
+        if r.get("reaction"):
+            log.append({"ts": r.get("user_replied_at",""), "sender": "contact", "type": "reaction",
+                        "text": r["reaction"], "reconstructed": False})
+        if r.get("requires_email_followup_to"):
+            log.append({"ts": r.get("response_date",""), "sender": "system", "type": "action_required",
+                        "text": f"ACTION: Email senden an {r['requires_email_followup_to']}", "reconstructed": False})
+    return log
+
 # ── Statuses that mean a DM was actually sent ─────────────────────────────────
 SENT_STATUSES = {
     "sent_ok", "sent_confirmed_blue_bubble", "sent_ok_after_retry",
@@ -188,6 +249,11 @@ def main():
         resp_data = json.load(f)
     responses = resp_data.get("responses", {})
 
+    followups = {}
+    if os.path.exists(FOLLOWUP_JSON):
+        with open(FOLLOWUP_JSON) as f:
+            followups = json.load(f).get("threads", {})
+
     hubspot = {}
     with open(HUBSPOT_CSV) as f:
         for row in csv.DictReader(f):
@@ -231,6 +297,7 @@ def main():
             "platform": "instagram",
             "outreach_date": c.get("date",""),
             "status": classification,
+            "salutation": c.get("salutation",""),
             "website": website,
             "website_confidence": website_confidence(handle, website),
             "emails": [e for e in emails if e],
@@ -242,6 +309,7 @@ def main():
             "icp_segment": c.get("icp_segment",""),
             "has_contact_data": bool(emails or phones),
         }
+        contact["conversation_log"] = build_conversation_log(contact, responses, followups)
         results.append(contact)
 
         if scrape_mode and not website and not emails:
@@ -287,7 +355,7 @@ def main():
 
     # Save CSV
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-        fieldnames = ["handle","platform","outreach_date","status","website",
+        fieldnames = ["handle","platform","outreach_date","status","salutation","website",
                       "website_confidence","email_1","email_2","email_3",
                       "phone_1","phone_2","response_snippet","response_date","note","persona","icp_segment"]
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -298,6 +366,7 @@ def main():
                 "platform": r["platform"],
                 "outreach_date": r["outreach_date"],
                 "status": r["status"],
+                "salutation": r.get("salutation",""),
                 "website": r["website"],
                 "website_confidence": r["website_confidence"],
                 "email_1": r["emails"][0] if len(r["emails"]) > 0 else "",
